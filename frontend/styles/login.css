@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+    color: lightblue;
+}
+.header{
+    transition: all 0.5s;
+    z-index: 1;
+    height: 60px;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+    background-color: #fff;
+    padding-left: 20px;
+    color:#012970;
+}
+.logo{
+    width: 280px;
+    line-height: 1;
+    text-decoration: none;
+}
+.logo img{
+    max-height: 26px;
+    
+}
+.logo span{
+    font-size: 26px;
+    font-weight: 700;
+    color: #012970;
+   
+    font-family: "Nunito", sans-serif;
+}
+.header .nav-account img{
+    max-height: 36px;
+}
+.header .nav-account span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.register-background{
+    width: auto;
+    height: 845px;
+    background-color: white;
+    
+}
+.register-box{
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #1a2c42;
+    padding: 50px;
+}
+.register-box input{
+    width: 300px
+}
+.register-box button{
+    margin-top: 48px;
+}
+.register-box span{
+    font-size: 10px;
+    color: red;
+}
+#password-error p{
+    font-size: 10px;
+    color: red;
+}
+
+
+.header-content a:hover{
+    color:lightblue;
+}
+.register-box a{
+    text-decoration: none;
+    color:white;
+}
+.register-box a:hover{
+    color:gray;
+}
+.header-content a{
+    text-decoration: none;
+    color:rgb(28, 28, 138);
+}
+label{
+    color:lightblue;
+}   
+.radio-buttons{
+    width:300px !important;
+}
+#customer{
+    width: 50px;
+}
+#admin{
+    width: 50px;
+}
